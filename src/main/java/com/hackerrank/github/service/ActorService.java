@@ -47,7 +47,6 @@ public class ActorService {
 					throw new IllegalStateException();
 				}, HashMap::new));
 
-		System.out.println(mapa);
 
 		List<Actor> rs = new ArrayList<>(mapa.keySet());
 
